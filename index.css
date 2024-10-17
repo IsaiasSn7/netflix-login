@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'my font';
+    src: url(/netflix-login/BebasNeue.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /*outline: 1px solid red;*/
+}
+
+body {
+    width: 1263px;
+    height: 582px;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    background-image: url(/netflix-login/fundo.png);
+}
+    .logo {
+        margin-top: 24px;
+        margin-left: 152px;
+
+    }
+
+    .logo img {
+        width: 151px;
+        height: 41px;
+    }
+
+    .meio {
+        margin-top: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .form {
+            opacity: 91%;
+            border-radius: 3px;
+            display: flex;
+            flex-direction: column;
+            width: 450px;
+            height: 484px;
+            background-color: rgba(0, 0, 0, 0.861);
+        }
+
+        form {
+            border-radius: 2px;
+            padding: 59px 72px;
+            display: flex;
+            flex-direction: column;
+        }
+}
