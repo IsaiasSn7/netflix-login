@@ -10,18 +10,23 @@
 
 <body>
     <div class="logo">
-        <img src="/netflix-login/logo.png" alt="logo">
+        <img src="./logo.png" alt="logo">
     </div>
     <div class="meio">
         <div class="form">
             <form>
                 <label for="entrar">Entrar</label>
                 <input id="email" type="email" placeholder="Email ou número de celular">
-                <input id="email" type="email" placeholder="Email ou número de celular">
-                <button type="submit">Entrar</button>
-                <h2>OU</h2>
-                <button>Usar código de acesso</button>
+                <input id="senha" type="password" placeholder="Senha">
+                <button class="b1" type="submit">Entrar</button>
+                <label class="ou" for="OU">OU</label>
+                <button class="b2">Usar código de acesso</button>
+                <h4>Esqueceu a senha?</h4>
             </form>
+            <div>
+                <input class="lembrar" type="checkbox" name="relembrar" id="relembrar">
+                <label for="lembrar">Lembre-se de mim</label>
+            </div>
         </div>
     </div>
 </body>
